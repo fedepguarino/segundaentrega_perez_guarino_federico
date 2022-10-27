@@ -1,0 +1,137 @@
+*{margin: 0;
+    padding: 0;}
+    
+    header{
+        background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20191014/pngtree-watercolor-galaxy-abstract-brush-background-image_319370.jpg);
+        background-size: cover;
+        
+        }
+    
+    #img_header{
+        height: 200px;
+        width: 200px;
+        
+        }
+    
+    #div_header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    #nav_header{
+        display: flex;
+        
+    }
+    
+    h1{
+        font-size: 90px;
+        font-family: "Roboto";
+        letter-spacing: 10px;
+        margin-left: 150px;
+    }
+    
+    h2{
+        font-size: 45px;
+        font-family: "Roboto";
+        text-align: center;
+        margin-left: 120px;
+    }
+    
+    
+    #ul_nav_header{
+        height: 50px;
+        width: 600px;
+        display: flex;
+        list-style-type: none;    
+        justify-content: space-evenly;
+        
+    }
+    
+    li{
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    
+    .a_header{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        border-radius: 30px;
+        padding: 11px;
+    }
+    .a_header:hover{background-color: rgb(245, 199, 199)}
+
+    main{
+        height: 700px;
+        background-image: linear-gradient( to bottom, black, grey)
+        
+        
+    }
+#div_main_padre{
+    display: flex;
+    height: 591px;
+    align-items: center;
+    justify-content: center;
+}
+#div_de_form{   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: 900;
+        color: white;
+    }
+
+form{width: 50%;
+    height: 450px;
+    
+}
+fieldset{height: 100%;}
+
+
+    .animate__animated{
+        background-color: black;
+        color: rgb(250, 0, 0);
+        font-size: 90px;
+        margin-left: 0; 
+        letter-spacing: 55px;
+        
+    }
+
+    footer{
+        background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20191014/pngtree-watercolor-galaxy-abstract-brush-background-image_319370.jpg);
+        height: 100px;
+        background-size: cover;
+    }
+    
+    #div_footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #ul_nav_footer{
+        display: flex;
+        
+    }
+    
+    h3{
+        margin-left: 30px;
+        margin-top: 10px;    
+    }
+    
+    .img_footer{
+        height: 50px;
+        width: 50px;
+    }
+    
+    #ul_nav_footer{
+        width: 600px;
+        display: flex;
+        justify-content: space-around;   
+        margin-top: 20px;
+        
+    }

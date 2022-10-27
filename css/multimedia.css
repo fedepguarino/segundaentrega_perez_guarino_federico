@@ -1,0 +1,198 @@
+*{margin: 0;
+    padding: 0;}
+    
+    header{
+        background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20191014/pngtree-watercolor-galaxy-abstract-brush-background-image_319370.jpg);
+        background-size: cover;
+        
+        }
+    
+    #img_header{
+        height: 200px;
+        width: 200px;
+        
+        }
+    
+    #div_header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    #nav_header{
+        display: flex;
+        
+    }
+    
+    h1{
+        font-size: 90px;
+        font-family: "Roboto";
+        letter-spacing: 10px;
+        margin-left: 150px;
+    }
+    
+    h2{
+        font-size: 45px;
+        font-family: "Roboto";
+        text-align: center;
+        margin-left: 120px;
+    }
+    
+    
+    #ul_nav_header{
+        height: 50px;
+        width: 600px;
+        display: flex;
+        list-style-type: none;    
+        justify-content: space-evenly;
+        
+    }
+    
+    li{
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    
+    .a_header{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        border-radius: 30px;
+        padding: 11px;
+    }
+    .a_header:hover{background-color: rgb(245, 199, 199)}
+
+    main{
+        height: 1100px;
+        background-color: rgb(39, 37, 37);
+        
+        
+    }
+
+    .animate__animated{
+        background-color: black;
+        color: rgb(250, 0, 0);
+        font-size: 90px;
+        margin-left: 0; 
+        letter-spacing: 55px;
+        
+    }
+
+    #grilla_galeria{
+        display: grid;
+        height: 90%;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 5% 15% 5% 15% 5% 15%;
+        grid-template-areas: "titulo_img1 img_galeria1"
+                            "parrafo_1 img_galeria1"
+                            "titulo_img2 img_galeria2"
+                            "parrafo_2 img_galeria2"
+                            "titulo_img3 img_galeria3"
+                            "parrafo_3 img_galeria3";
+        justify-content: center;
+        align-content: space-around;
+        justify-items: center;
+        align-items: center;   
+        background-image: linear-gradient(rgb(20, 20, 20), rgb(34, 32, 32), rgb(44, 42, 42))     
+        
+        
+    }
+
+
+    #titulo_img1{
+        font-size: 50px;
+        color: rgb(133, 0, 0);
+        font-family: "Roboto";
+        align-self:flex-end;
+        text-decoration: underline;
+        
+    }
+    #titulo_img2{
+        font-size: 50px;
+        color: rgb(133, 0, 0);
+        font-family: "Roboto";
+        align-self:flex-end;
+        text-decoration: underline;
+    }
+    #titulo_img3{
+        font-size: 50px;
+        color: rgb(133, 0, 0);
+        font-family: "Roboto";
+        align-self:flex-end;
+        text-decoration: underline;
+    }
+
+    p{color: rgb(207, 206, 206);
+    font-size: 30px;
+    font-family: "Roboto";
+    justify-self: start;
+    align-self: flex-start;}
+
+.img_galeria1{
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+    grid-area: img_galeria1;
+}
+.img_galeria2{
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+    grid-area: img_galeria2;
+}
+.img_galeria3{
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+    grid-area: img_galeria3;
+}
+.img_galeria1:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.img_galeria2:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.img_galeria3:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+    footer{
+        background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20191014/pngtree-watercolor-galaxy-abstract-brush-background-image_319370.jpg);
+        height: 100px;
+        background-size: cover;
+    }
+    
+    #div_footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #ul_nav_footer{
+        display: flex;
+        
+    }
+    
+    h4{
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 20px;    
+    }
+    
+    .img_footer{
+        height: 50px;
+        width: 50px;
+    }
+    
+    #ul_nav_footer{
+        width: 600px;
+        display: flex;
+        justify-content: space-around;   
+        margin-top: 20px;
+        
+    }
